@@ -299,7 +299,7 @@ img {
 }
 
 .home__blob-img {
-    width: 250px;
+    width: 380px;
 }
 
 .home__data {
@@ -515,8 +515,16 @@ img {
     width: 90%;
 }
 
+.skills__spring {
+    width: 90%;
+}
+
 .skills__php {
     width: 75%;
+}
+
+.skills__laravel {
+    width: 65%;
 }
 
 .skills__javascript {
@@ -541,6 +549,22 @@ img {
 
 .skills__react {
     width: 65%;
+}
+
+.skills__uml{
+    width: 85%;
+}
+
+.skills__objects{
+    width: 80%;
+}
+
+.skills__domain{
+    width: 70%;
+}
+
+.skills__microservices{
+    width: 70%;
 }
 
 .skills__close .skills__list {
