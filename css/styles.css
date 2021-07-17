@@ -551,19 +551,19 @@ img {
     width: 65%;
 }
 
-.skills__uml{
+.skills__uml {
     width: 85%;
 }
 
-.skills__objects{
+.skills__objects {
     width: 80%;
 }
 
-.skills__domain{
+.skills__domain {
     width: 70%;
 }
 
-.skills__microservices{
+.skills__microservices {
     width: 70%;
 }
 
@@ -966,7 +966,7 @@ img {
 }
 
 .footer__social {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     margin-right: var(--mb-1-5);
 }
 
