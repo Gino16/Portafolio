@@ -818,34 +818,32 @@
           </div>
         </div>
 
-        <form action="https://formsubmit.co/gino.francisco@hotmail.com" method="POST" class="contact__form grid ">
-          <input type="hidden" name="_captcha" value="false">
-          <div class="contact__inputs grid ">
-            <div class="contact__content ">
-              <label for="name " class="contact__label ">Nombre:</label>
-              <input type="text " class="contact__input " id="name" name="name">
+        <form class="contact__form grid" id="contact-form">
+          <input type="hidden" name="contact_number">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="contact__label">Nombre:</label>
+              <input type="text" class="contact__input" id="name" name="name">
             </div>
-            <div class="contact__content ">
-              <label for="email " class="contact__label ">Email:</label>
-              <input type="email " class="contact__input " id="email" name="email">
+            <div class="contact__content">
+              <label for="email" class="contact__label">Email:</label>
+              <input type="email" class="contact__input" id="email" name="email">
             </div>
           </div>
 
-          <div class="contact__content ">
-            <label for="project " class="contact__label ">Proyecto:</label>
-            <input type="text " class="contact__input " id="project " name="_subject">
+          <div class="contact__content">
+            <label for="project" class="contact__label">Proyecto:</label>
+            <input type="text" class="contact__input" id="project" name="project">
           </div>
 
-          <div class="contact__content ">
-            <label for="message " class="contact__label ">Mensaje:</label>
-            <textarea class="contact__input " name="name" id="message " cols="0 " rows="7 "></textarea>
+          <div class="contact__content">
+            <label for="message" class="contact__label">Mensaje:</label>
+            <textarea class="contact__input" name="message" id="message" cols="0" rows="7"></textarea>
           </div>
 
           <div>
-            <button class="button button--flex" type="submit">
-              Enviar Mensaje
-              <i class="uil uil-message button__icon "></i>
-            </button>
+            <input class="button button--flex" type="submit" value="Enviar Mensaje">
+
           </div>
 
         </form>
@@ -855,35 +853,35 @@
 
   </main>
 
-  <footer class="footer ">
-    <div class="footer__bg ">
-      <div class="footer__container container grid ">
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
         <div>
-          <h1 class="footer__title ">Gino</h1>
-          <span class="footer__subtitle ">Backend developer</span>
+          <h1 class="footer__title">Gino</h1>
+          <span class="footer__subtitle">Backend developer</span>
         </div>
 
-        <ul class="footer__links ">
+        <ul class="footer__links">
           <li>
             <a href="#about" class="footer__link">Acerca de mi</a>
           </li>
           <li>
-            <a href="#portfolio" class="footer__link ">Portafolio</a>
+            <a href="#portfolio" class="footer__link">Portafolio</a>
           </li>
           <li>
-            <a href="#contact" class="footer__link ">Contactame</a>
+            <a href="#contact" class="footer__link">Contactame</a>
           </li>
         </ul>
-        <div class="footer__socials ">
-          <a href="https://www.facebook.com/c.y.g.16" target="_blank " class="footer__social ">
-            <i class="uil uil-facebook-f "></i>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/c.y.g.16" target="_blank" class="footer__social">
+            <i class="uil uil-facebook-f"></i>
           </a>
-          <a href="https://www.linkedin.com/in/gino-francisco-ascencio-gomez-a0490415a/" target="_blank "
-            class="footer__social ">
-            <i class="uil uil-linkedin-alt "></i>
+          <a href="https://www.linkedin.com/in/gino-francisco-ascencio-gomez-a0490415a/" target="_blank"
+            class="footer__social">
+            <i class="uil uil-linkedin-alt"></i>
           </a>
-          <a href="https://github.com/Gino16" target="_blank " class="footer__social ">
-            <i class="uil uil-github-alt "></i>
+          <a href="https://github.com/Gino16" target="_blank" class="footer__social">
+            <i class="uil uil-github-alt"></i>
           </a>
         </div>
       </div>
@@ -891,13 +889,15 @@
   </footer>
 
   <!--    SCROLL TOP-->
-  <a href="# " class="scrollup " id="scroll-up">
-    <i class="uil uil-arrow-up scrollup__icon "></i>
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
   </a>
+  <!-- CDN EMAILJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <!-- SWIPER JS -->
-  <script src="js/swiper-bundle.min.js "></script>
+  <script src="js/swiper-bundle.min.js"></script>
   <!-- MAIN JS -->
-  <script src="js/main.js "></script>
+  <script src="js/main.js"></script>
 
 </body>
 
